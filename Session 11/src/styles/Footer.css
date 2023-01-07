@@ -1,0 +1,24 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    width: 35%;
+}
+.first img{
+    width: 10rem;
+    margin-top: 1rem;
+}
+.first p{
+    width: 20rem;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+.footer-last{
+    padding: 1rem;
+    text-align: center;
+}

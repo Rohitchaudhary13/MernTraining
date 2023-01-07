@@ -1,0 +1,17 @@
+p{
+    background-color: aquamarine;
+}
+
+.list {
+background-color: yellowgreen;
+}
+h1 {
+color: blueviolet;
+}
+#first-heading {
+color: bisque;
+}
+.container{
+width: 80%;
+text-align: center;
+}

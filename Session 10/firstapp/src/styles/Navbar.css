@@ -1,0 +1,20 @@
+.logo{
+    width: 15rem;
+
+}
+
+.row-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items div{
+    padding-left: 1rem;
+}

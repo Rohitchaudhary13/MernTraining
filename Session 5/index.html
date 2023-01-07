@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+
+    <button id="asta" onclick="removeHandler()">Mera Pyara button</button>
+    <p id="demo"></p>
+    
+
+    <script>
+
+        // const nikitesh = document.getElementById("asta");
+        // nikitesh.addEventListener("mouseover", bat);
+        // nikitesh.addEventListener("click", ball);
+        // nikitesh.addEventListener("mouseout", mahi);
+        // function bat(){
+        //     document.getElementById("demo").innerHTML = "hello";
+        // }
+        // function ball(){
+        //     document.getElementById("demo").innerHTML = "world";
+        // }
+        // function mahi(){
+        //     document.getElementById("demo").innerHTML = "Virat is great!";
+        // }
+
+        document.getElementById("asta").addEventListener("mousemove", vibhav);
+
+        function vibhav(){
+            document.getElementById("demo").innerHTML = Math.random();
+        }
+
+        function removeHandler(){
+            document.getElementById("asta").removeEventListener("mousemove", vibhav);
+        }
+
+
+
+    </script>
+
+</body>
+</html>

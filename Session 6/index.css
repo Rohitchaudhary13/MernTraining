@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30vh;
+    color: black;
+}
+
+
+input{
+    padding: 0.5rem;
+    font-size: 18px;
+}
+
+button{
+    padding: 0.6rem;
+    background-color: black;
+    color: white;
+}
+
+
+
+.para-styling{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.para-styling:hover{
+    transform: scale(1.1);
+}

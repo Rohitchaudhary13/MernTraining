@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Milky Wilky';
+    src: local('Milky Wilky'), url(./fonts/milky/MilkyWalky-Regular.otf) format('otf');
+  }
+.milky{
+    font-family: 'Milky Walky';
+}
